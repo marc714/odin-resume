@@ -1,0 +1,39 @@
+.block {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.block h2 {
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.job {
+    border-top: 2px solid black;
+}
+
+.school {
+    background-color: aliceblue;
+}
+
+.label {
+    font-weight: 600;
+}
+
+#main-form {
+    background-color: rgb(202, 202, 202);
+}
+
+.submit-btn {
+    margin: 5px;
+    background-color: aqua;
+}
+
+.sample-btn-container {
+    background-color: rgb(85, 85, 85);
+}
+
+.sample-btn {
+    background-color: rgb(97, 110, 97);
+}

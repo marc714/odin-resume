@@ -1,0 +1,31 @@
+.uniqueID {
+    display: block;
+}
+
+.eduBlock {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.expBlock {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.left {
+    max-width: 400px;
+}
+
+
+.right {
+    background-color: thistle;
+    min-width: 600px;
+
+}
