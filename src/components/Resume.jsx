@@ -20,17 +20,17 @@ function Resume() {
     let tempExp = JSON.parse(localStorage.getItem('experience'))
     let tempPersonal = JSON.parse(localStorage.getItem('personal'))
 
-    if(tempEdu.length === 0) {
+    if(tempEdu == null) {
         let temp = [{id: 0, school:"", major:"", year:""}]
         localStorage.setItem("education", JSON.stringify(temp))
     }
 
-    if(tempExp.length === 0) {
+    if(tempExp == null) {
         let temp = [{id: 0, company:"", position:"", date:""}]
         localStorage.setItem("experience", JSON.stringify(temp))
     }
 
-    if(tempPersonal.length === 0) {
+    if(tempPersonal == null) {
         let temp = [{id: 0, name:"", address:"", email:"", phone:""}]
         localStorage.setItem("personal", JSON.stringify(temp))
     }
